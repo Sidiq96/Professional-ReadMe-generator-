@@ -9,49 +9,49 @@ const questions = [
   {
     type: "input",
     message: "What is your Github username?",
-    name: "Github",
+    name: "github",
   },
   {
     type: "input",
     message: "What is your email address?",
-    name: "Email",
+    name: "email",
   },
   {
     type: "input",
     message: "What is your project name?",
-    name: "Project",
+    name: "title",
   },
   {
     type: "input",
     message: "Please write a short description of your project?",
-    name: "Description",
+    name: "description",
   },
   {
-    type: "Checkbox",
+    type: "input",
+    message: "How is the application used?",
+    name: "usage",
+  },
+  {
+    type: "checkbox",
     message:
-      "Please choose a license that is applicable for your project? (Use arrow key to select)",
-    name: "License",
+      "Please choose a license that is applicable for your project?",
+    name: "license",
     choices: ["MIT", "Apache 2.0", "GPL 3.0", "BSD 3", "None"],
   },
   {
     type: "input",
     message: "What command should be run to install dependencies?",
-    name: "Install",
+    name: "install",
   },
   {
     type: "input",
     message: "What command should be run to run tests?",
-    name: "Test",
-  },
-  {
-    type: "input",
-    message: "What does the user need to know about using the repo?",
-    name: "Repo",
+    name: "test",
   },
   {
     type: "input",
     message: "What does the user need to know about contributing to the repo?",
-    name: "Contributing",
+    name: "contribution",
   },
 ];
 
